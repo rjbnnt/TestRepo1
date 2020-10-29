@@ -18,6 +18,7 @@ namespace ConsoleApp1
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            // specify message
             var message = "Hello World!";
             OutputMessage(message);
             
