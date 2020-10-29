@@ -5,7 +5,7 @@ namespace ConsoleApp1
     class Program
     {
         /// <summary>
-        /// Outputs a message
+        /// Outputs a message, default not upper case
         /// </summary>
         /// <param name="message"></param>
         static void OutputMessage(string message, bool inUpper = false)
