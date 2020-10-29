@@ -4,7 +4,9 @@ namespace ConsoleApp1
 {
     class Program
     {
-
+        /// <summary>
+        /// Write out a message
+        /// </summary>
         static void OutputMessage()
         {
             Console.WriteLine("Hello World!");
