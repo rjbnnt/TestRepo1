@@ -4,12 +4,14 @@ namespace ConsoleApp1
 {
     class Program
     {
-       /// <summary>
-       /// Outputs a message
-       /// </summary>
-       /// <param name="message"></param>
-        static void OutputMessage(string message)
+        /// <summary>
+        /// Outputs a message
+        /// </summary>
+        /// <param name="message"></param>
+        static void OutputMessage(string message, bool inUpper = false)
         {
+            if (inUpper)
+                message = message.ToUpper();
             Console.WriteLine(message);
         }
         /// <summary>
