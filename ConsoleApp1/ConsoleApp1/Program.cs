@@ -4,10 +4,13 @@ namespace ConsoleApp1
 {
     class Program
     {
-
-        static void OutputMessage()
+       /// <summary>
+       /// Outputs a message
+       /// </summary>
+       /// <param name="message"></param>
+        static void OutputMessage(string message)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(message);
         }
         /// <summary>
         /// This is a classic test program, that prints hello world
@@ -15,7 +18,8 @@ namespace ConsoleApp1
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            OutputMessage();
+            var message = "Hello World!";
+            OutputMessage(message);
             
             Console.ReadLine();
         }
